@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FOOD100</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/icons.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="images/product2.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=IBM+Plex+Sans+Thai+Looped&family=Inconsolata:wght@500&family=Mukta&family=Press+Start+2P&family=Supermercado+One&family=Work+Sans:wght@500&display=swap"
+     rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <header class="header">
+            <h1 class="header__title">FOOD100</h1>
+            <p class="header__descr">FAST FOOD level 100</p>
+            <div class="header__timer">
+                <span class="header__timer-extra">100</span> LVL
+            </div>
+            <div class="user__money-box">
+                <h3 class="user__money"></h3>
+            </div>
+        </header>
+
+        <main class="main">
+            <!-- Бургер 1 -->
+            <section class="main__product" id="plainBurger">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product2.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">Simple Hamburger
+                            <span class="main__product-many">10000 soum</span>
+                        </h2>
+                    </div>
+                    <p class="main__product-descr">
+                        Meet the simple hamburger. It is not juicy and not satisfying for being cheap
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Miqdorning oshishi -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Minus tugmasi -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Miqdori -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Minus tugmasi -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> soum</div> <!-- Umumiy narx -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Qo'shimcha element -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Double mayonnaise
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Qo'shimcha element -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Lettuce
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Qo'shimcha element -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Cheese
+                    </label>
+                </div>
+                <div class="main__product-call"><span>0</span> Calories</div> <!-- Umumiy kaloriya -->
+
+            </section>
+            <section class="main__product" id="freshBurger">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product1.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">FRESH Hamburger<span class="main__product-many">20500
+                                soum</span></h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        Meet Freshman FAST FOOD. He picked up all the old stuff.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Miqdorning oshishi -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> soum</div> <!-- Umumiy narx -->
+                </div>
+
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Qo'shimcha element -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Double mayonnaise
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Qo'shimcha element -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Lettuce
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Qo'shimcha element -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Cheese
+                    </label>
+                </div>
+                <div class="main__product-call"><span>0</span> Calories</div> <!-- Umumiy kaloriya -->
+
+            </section>
+            <section class="main__product" id="freshCombo">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product3.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">FRESH COMBO <span class="main__product-many">31900 soum</span>
+                        </h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        FRESH and French fries. The same FRESH and Free teamed up.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Miqdorning oshishi -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> soum</div> <!-- Umumiy narx -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Qo'shimcha element -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Double mayonnaise
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Qo'shimcha element -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Lettuce
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Qo'shimcha element -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Cheese
+                    </label>
+                </div>
+                <div class="main__product-call"><span>0</span> Calories</div> <!-- Umumiy kaloriya -->
+
+            </section>
+        </main>
+
+        <div class="button">
+            <!-- Buyurtma tugmasi -->
+            <button class="addCart" type="reset">
+                <span class="fa-reg cart"></span> Order
+            </button>
+        </div>
+
+    </form>
+    <div class="receipt">
+        <!-- Чек -->
+        <div class="receipt__window">
+            <h2 class="receipt__window-title">FOOD100 LVL</h2>
+
+            <!-- Chekda ma'lumotni ko'rsatish  -->
+            <div class="receipt__window-out">
+                <h3 class="receipt__information-simple-burger">Simple Hamburger: <span id="order-plainBurger"
+                        class="receipt__product-many">0 </span> soum</h3>
+                        
+                <h3 class="receipt__information-fresh-burger">FRESH Hamburger: <span id="order-freshBurger"
+                        class="receipt__product-many">0 </span> soum</h3>
+                        
+                <h3 class="receipt__information-fresh-combo-burger">FRESH COMBO: <span id="order-freshCombo"
+                        class="receipt__product-many">0 </span> soum</h3>
+                        
+                <h3 class="receipt__information-fresh-combo-burger">ALL Burgers: <span id="order-total"
+                        class="receipt__product-many">0 </span> soum</h3>
+            </div>
+
+            <button class="receipt__window-btn">Pay</button> <!-- Bosilganda, sahifa yangilanadi -->
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
